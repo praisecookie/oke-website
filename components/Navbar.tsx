@@ -4,8 +4,8 @@ export default function Navbar() {
   const navLinks = [
     { name: "AI Automation", href: "/ai-automation" },
     { name: "Fintech", href: "/fintech" },
-    { name: "Ventures", href: "/ventures" },
-    { name: "Insights", href: "/insights" },
+   // { name: "Ventures", href: "/ventures" },
+   // { name: "Insights", href: "/insights" },
     { name: "About", href: "/about" },
   ];
 

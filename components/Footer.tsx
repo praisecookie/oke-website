@@ -30,8 +30,10 @@ export default function Footer() {
             <div className="flex flex-col gap-4 text-sm font-light text-[color:var(--color-surface)]/90">
               <Link href="/ai-automation" className="hover:opacity-60 transition-opacity">AI Automation</Link>
               <Link href="/fintech" className="hover:opacity-60 transition-opacity">Fintech Consulting</Link>
+              {/* HIDDEN FOR NOW
               <Link href="/ventures" className="hover:opacity-60 transition-opacity">Ventures & Capital</Link>
               <Link href="/insights" className="hover:opacity-60 transition-opacity">Insights & Research</Link>
+              */}
               <Link href="/about" className="hover:opacity-60 transition-opacity">The Operator</Link>
             </div>
           </div>
@@ -42,7 +44,9 @@ export default function Footer() {
             <div className="flex flex-col gap-4 text-sm font-light text-[color:var(--color-surface)]/90">
               <Link href="https://www.linkedin.com/in/sen-oke-orhosere-84b608148/" target="_blank" className="hover:opacity-60 transition-opacity">LinkedIn</Link>
               <Link href="https://x.com/iam_senex" target="_blank" className="hover:opacity-60 transition-opacity">Twitter (X)</Link>
+              {/* HIDDEN FOR NOW
               <Link href="https://cuukie.substack.com/" target="_blank" className="hover:opacity-60 transition-opacity">Substack</Link>
+              */}
               <Link href="mailto:senoke01@gmail.com" className="hover:opacity-60 transition-opacity">senoke01@gmail.com</Link>
             </div>
           </div>

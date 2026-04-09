@@ -32,12 +32,14 @@ export default function Home() {
           </p>
         </Link>
 
+        {/* HIDDEN FOR NOW
         <Link href="/ventures" className="group block border border-[color:var(--color-border)] p-8 hover:bg-[color:var(--color-primary)] hover:text-[color:var(--color-surface)] transition-all duration-300">
           <h2 className="heading-serif text-2xl mb-4 group-hover:text-[color:var(--color-surface)]">Ventures & Capital</h2>
           <p className="text-sm opacity-80 leading-relaxed font-light">
             Deal sourcing, due diligence, and capital allocation for high-potential Web3 and DeFi startups.
           </p>
         </Link>
+        */}
 
       </div>
 
