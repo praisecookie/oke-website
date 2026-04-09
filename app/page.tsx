@@ -10,7 +10,7 @@ export default function Home() {
           Oke Orhosere.
         </h1>
         <p className="text-xl md:text-2xl text-[color:var(--color-muted)] font-light max-w-2xl leading-relaxed">
-          Fintech Founder. Venture Capitalist. AI Automation Architect. <br />
+          Fintech Founder. AI Automation Architect. <br />
           Bridging the gap between operational scaling and autonomous systems.
         </p>
       </div>

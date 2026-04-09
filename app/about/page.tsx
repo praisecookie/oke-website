@@ -33,7 +33,9 @@ export default function AboutPage() {
             My foundation is rooted in pure Mathematics. This analytical rigor allowed me to transition seamlessly into the complexities of financial technology. In 2016, I founded <strong className="font-medium text-[color:var(--color-foreground)]">Senexpay</strong>, navigating brutal regulatory landscapes and scaling a crypto-native platform to solve real-world cross-border payment bottlenecks.
           </p>
           <p>
+            {/* HIDDEN FOR NOW
             Having operated successfully as a founder, I expanded into capital allocation. At <strong className="font-medium text-[color:var(--color-foreground)]">SenexHub</strong>, I sit across the table, leveraging my operational scars to evaluate high-potential Web3 startups, architect institutional due diligence, and position founders for follow-on venture funding.
+            */}
           </p>
           <p>
             Today, I merge financial strategy with deep technical infrastructure. Recognizing that the next frontier of leverage is automation, I architect enterprise-grade, local-first AI systems (n8n, ClaudeBot) that allow businesses to operate flawlessly around the clock.
@@ -57,9 +59,12 @@ export default function AboutPage() {
           </div>
 
           <div>
-            <div className="text-xs uppercase tracking-widest text-[color:var(--color-foreground)] font-medium mb-4">Capital & Finance</div>
+            <div className="text-xs uppercase tracking-widest text-[color:var(--color-foreground)] font-medium mb-4">Finance</div>
             <ul className="space-y-2 text-sm text-[color:var(--color-muted)] font-light">
+              {/* HIDDEN FOR NOW
               <li>Venture Capital Modeling</li>
+              */}
+              <li>Financial Forecasting</li>
               <li>Burn-rate Forecasting</li>
               <li>Valuation Structuring</li>
               <li>Cap Table Management</li>
@@ -76,6 +81,7 @@ export default function AboutPage() {
             </ul>
           </div>
 
+          {/* HIDDEN FOR NOW
           <div>
             <div className="text-xs uppercase tracking-widest text-[color:var(--color-foreground)] font-medium mb-4">Credentials</div>
             <ul className="space-y-2 text-sm text-[color:var(--color-muted)] font-light">
@@ -84,6 +90,7 @@ export default function AboutPage() {
               <li>10+ Years African Fintech</li>
             </ul>
           </div>
+          */}
 
         </div>
       </div>
