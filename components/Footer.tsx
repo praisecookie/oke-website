@@ -14,9 +14,11 @@ export default function Footer() {
               <Link href="/" className="heading-serif normal-case text-4xl font-bold text-[color:var(--color-surface)] mb-6 block">
                 Oke.
               </Link>
+              {/* HIDDEN FOR NOW
               <p className="text-[color:var(--color-surface)]/70 font-light max-w-sm leading-relaxed">
                 Bridging the gap between operational scaling, venture capital, and autonomous AI systems across emerging markets.
               </p>
+              */}
             </div>
             {/* Copyright moved here */}
             <div className="mt-12 text-xs text-[color:var(--color-surface)]/50 font-light tracking-wide">
