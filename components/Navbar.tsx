@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const navLinks = [
@@ -13,9 +14,16 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-50 border-b border-[color:var(--color-border)] bg-[color:var(--color-background)]/80 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between text-xs uppercase tracking-widest font-medium">
         
-        {/* Logo / Name */}
-        <Link href="/" className="heading-serif normal-case text-2xl font-bold">
-          Oke.
+        {/* 2. Updated Logo Section */}
+        <Link href="/" className="flex items-center">
+          <Image 
+            src="/logo-oke.png"
+            alt="Oke Orhosere" 
+            width={150} 
+            height={60} 
+            className="h-12 w-auto object-contain" 
+            priority 
+          />
         </Link>
 
         {/* Desktop Navigation */}
