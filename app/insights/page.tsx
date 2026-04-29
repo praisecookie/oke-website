@@ -16,11 +16,11 @@ export default async function InsightsPage() {
   let items: FeedItem[] = [];
 
   try {
-    // Replace this URL with Oke's actual Substack feed URL (e.g., https://oke.substack.com/feed)
-    const feed = await parser.parseURL("https://cuukie.substack.com/feed");
+    // Medium feed URL
+    const feed = await parser.parseURL("https://medium.com/feed/@senoke01");
     items = feed.items.slice(0, 9) as FeedItem[]; // Grab the latest 9 posts
   } catch (error) {
-    console.error("Failed to fetch Substack feed:", error);
+    console.error("Failed to fetch Medium feed:", error);
   }
 
   return (
@@ -88,9 +88,9 @@ export default async function InsightsPage() {
             Join thousands of founders and investors receiving my latest research on tech infrastructure and capital allocation directly in their inbox.
           </p>
         </div>
-        {/* Replace with his actual Substack link */}
+        {/* Medium link */}
         <Link 
-          href="https://cuukie.substack.com/subscribe" 
+          href="https://medium.com/@senoke01" 
           target="_blank" 
           rel="noopener noreferrer"
           className="bg-[color:var(--color-surface)] text-[color:var(--color-primary)] px-8 py-4 hover:bg-gray-200 transition-colors duration-300 uppercase tracking-widest text-sm font-medium shrink-0"

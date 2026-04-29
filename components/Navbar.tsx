@@ -6,7 +6,7 @@ export default function Navbar() {
     { name: "AI Automation", href: "/ai-automation" },
     { name: "Fintech", href: "/fintech" },
    // { name: "Ventures", href: "/ventures" },
-   // { name: "Insights", href: "/insights" },
+    { name: "Insights", href: "/insights" },
     { name: "About", href: "/about" },
   ];
 
@@ -19,9 +19,9 @@ export default function Navbar() {
           <Image 
             src="/logo-oke.png"
             alt="Oke Orhosere" 
-            width={150} 
-            height={60} 
-            className="h-12 w-auto object-contain" 
+            width={160} 
+            height={80} 
+            className="h-14 w-auto object-contain" 
             priority 
           />
         </Link>
