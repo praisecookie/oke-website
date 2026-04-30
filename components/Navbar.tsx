@@ -6,7 +6,7 @@ export default function Navbar() {
     { name: "AI Automation", href: "/ai-automation" },
     { name: "Fintech", href: "/fintech" },
    // { name: "Ventures", href: "/ventures" },
-    { name: "Insights", href: "/insights" },
+    { name: "Blog", href: "/insights" },
     { name: "About", href: "/about" },
   ];
 

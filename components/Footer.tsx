@@ -35,7 +35,7 @@ export default function Footer() {
               {/* HIDDEN FOR NOW
               <Link href="/ventures" className="hover:opacity-60 transition-opacity">Ventures & Capital</Link>
               */}
-              <Link href="/insights" className="hover:opacity-60 transition-opacity">Insights & Research</Link>
+              <Link href="/insights" className="hover:opacity-60 transition-opacity">Blog</Link>
               
               <Link href="/about" className="hover:opacity-60 transition-opacity">The Operator</Link>
             </div>
