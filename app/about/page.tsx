@@ -27,7 +27,7 @@ export default function AboutPage() {
         {/* Right Column: The History */}
         <div className="lg:col-span-7 space-y-12 text-lg text-[color:var(--color-muted)] font-light leading-relaxed">
           <p>
-            Operating out of Lekki, Lagos, the epicenter of Africa's tech renaissance, I have spent the last ten years building, scaling, and advising the platforms that define the continent's digital economy. 
+            Operating out of Victoria Island, Lagos, the epicenter of Africa's tech renaissance, I have spent the last ten years building, scaling, and advising the platforms that define the continent's digital economy. 
           </p>
           <p>
             My foundation is rooted in pure Mathematics. This analytical rigor allowed me to transition seamlessly into the complexities of financial technology. In 2016, I founded <strong className="font-medium text-[color:var(--color-foreground)]">Senexpay</strong>, navigating brutal regulatory landscapes and scaling a crypto-native platform to solve real-world cross-border payment bottlenecks.
